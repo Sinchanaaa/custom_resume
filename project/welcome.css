@@ -1,0 +1,88 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background:rgb(199, 219, 218);
+
+}
+
+.first{
+  width: 300px;
+  padding: 40px;
+  text-align: center;
+
+  
+
+  top:50%;
+  left: 50%;
+  padding-left: 600px;
+
+
+}
+.first h1{
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding:4px ;
+  
+  background-color: rgb(7, 96, 99);
+}
+h1:hover{
+  color: turquoise;
+}
+.first input[type="text"],.first input[type="password"]{
+  border:0;
+  background: none;
+  display: block;
+  text-align: center;
+  border: 2px solid rgb(88, 206, 214);
+  padding: 14px 10px;
+  margin: 20px auto;
+  border-radius: 30px;
+  color: white;
+  outline: none;
+  width: 200px;
+  transition: 0.25s;
+  
+}
+.first input[type="text"]:focus, .first input[type="password"]:focus{
+  width: 280px;
+  border-color: turquoise;
+
+}
+.first input[type="submit"]{
+  border:0;
+  background: none;
+  display: block;
+  text-align: center;
+  border: 2px solid turquoise;
+  padding: 14px 10px;
+  margin: 20px auto;
+  border-radius: 30px;
+  color: white;
+  outline: none;
+  width: 220px;
+  transition: 0.25s;
+  cursor: pointer;
+  
+  
+
+}
+
+.first input[type="submit"]:hover{
+  color: whitesmoke;
+  background: turquoise;
+}
+.form-check-label{
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+a{
+  color: rgb(121, 117, 117);
+
+}
+a:hover{
+  color:mediumturquoise
+}
+
+
